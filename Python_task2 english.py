@@ -11,5 +11,6 @@ class Competitor:
         points += points
 
 first = Competitor()
+first.color = "blue"
 first.score(1)
 first.situation("0", "blue")
